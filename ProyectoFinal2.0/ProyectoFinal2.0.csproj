@@ -1,0 +1,405 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>ProyectoFinal2._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\visa_payment_method_card_icon_1427291.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\visa_payment_method_card_icon_142729.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Teclado3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Teclado2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Teclado1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ssd5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ssd4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ssd3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ssd2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ssd1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\rtx4090.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Recurso 8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Recurso 7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Recurso 5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\rectangulo-redondeado.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Ram1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Placa5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Placa4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Placa3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Placa2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Placa1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\paisaje-montana-purpura.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Mouse3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Mouse2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Mouse1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Monitor5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Monitor4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Monitor3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Monitor2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Monitor1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\menos-linea-recta-horizontal %281%291.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\menos-linea-recta-horizontal %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\mastercard_payment_method_icon_142750.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\mastercard_payment_method_card_icon_1427341.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\mastercard_payment_method_card_icon_142734.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %2811%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %2810%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %289%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %288%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %287%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %286%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %285%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %284%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %283%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\image %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Gpu5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Gpu4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Gpu3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Gpu2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Gpu1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Fuente5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Fuente4.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Fuente3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Fuente2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Fuente1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu12.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu10.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu7.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu4.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\cpu1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\correo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Case1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\anadir-al-carrito.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\anadir-al-carrito %282%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\anadir-al-carrito %281%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\acceso.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\33028693_7941378.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\7534314_3665792.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj" />
+    <ProjectReference Include="..\Dependencias\Dependencias.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormsProducts\MasterPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
